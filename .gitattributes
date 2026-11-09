@@ -3,6 +3,7 @@
 *.md text eol=lf
 *.yml text eol=lf
 *.toml text eol=lf
+*.json text eol=lf
 *.mid binary
 *.png binary
 *.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
