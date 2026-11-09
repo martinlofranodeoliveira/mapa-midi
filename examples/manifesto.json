@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "application": "mapa-midi",
+  "application_version": "1.0.0",
+  "source_sha256": "8407f47bf973569edad2cfb45a4ec4b790de0f29e41e007e41c1330040d372b8",
+  "members": {
+    "eventos.csv": {
+      "size_bytes": 5248,
+      "sha256": "f9c952b224699700455980a32f276b6cc1bc943ae3161775936197f979df6bc9"
+    },
+    "exemplo.mid": {
+      "size_bytes": 306,
+      "sha256": "8407f47bf973569edad2cfb45a4ec4b790de0f29e41e007e41c1330040d372b8"
+    },
+    "notas.csv": {
+      "size_bytes": 2241,
+      "sha256": "c871c727c4b91830af55d0fdb6000a2b507a556f705be7f07cb6e812006a56b5"
+    },
+    "resumo.json": {
+      "size_bytes": 26439,
+      "sha256": "5add77ec40097eb765eacb43a124f5856aa033340b66aaadeea4f9d4cb013e18"
+    },
+    "resumo.md": {
+      "size_bytes": 9263,
+      "sha256": "b4672f590de13bd65e94c927106359b425ba308d888f1a2d334213762572d398"
+    },
+    "rolo.png": {
+      "size_bytes": 65020,
+      "sha256": "0989b6131b2c82ea71458c015c5dd90786ce8fab83c35aec8695cb5bfaf4827b"
+    },
+    "rolo.svg": {
+      "size_bytes": 15864,
+      "sha256": "75829e8bce8db9b00188a7306bbe22bc7fc1ca1949b955a266b4320ebef42227"
+    }
+  }
+}

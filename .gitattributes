@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.mid binary
+*.png binary
+*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.svg text eol=lf
+# Preserve the exact bytes emitted by Matplotlib, including path whitespace.
+examples/*.svg -whitespace
+examples/*.md -whitespace

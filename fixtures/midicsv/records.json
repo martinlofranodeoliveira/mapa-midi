@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "consumer": "MIDICSV 1.1 (January 2008)",
+  "source_url": "https://www.fourmilab.ch/webtools/midicsv/midicsv-1.1.tar.gz",
+  "source_sha256": "7c5a749ab5c4ebac4bd7361df0af65892f380245be57c838e08ec6e4ac9870ef",
+  "actual_external_run_utc": "2026-11-09T03:07:18.606514+00:00",
+  "environment": {
+    "os": "Linux",
+    "machine": "x86_64",
+    "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0"
+  },
+  "source_portability_patch": "getopt.c: remove only unused char *index(); declaration; parser/encoder unchanged",
+  "executables": {
+    "midicsv": {
+      "sha256": "5e4b84f31802812a7a9acae8695538fbe82831a75c969619c53580eced2ae107",
+      "size_bytes": 32928
+    },
+    "csvmidi": {
+      "sha256": "e83b56baf5a2668c03bc5411e955e1ba939670180e6a722bada8ae9510358363",
+      "size_bytes": 52480
+    }
+  },
+  "commands": [
+    "make all",
+    "csvmidi -z -x CASE.csv CASE.mid (except running: csvmidi -z)",
+    "midicsv CASE.mid CASE.decoded.csv"
+  ],
+  "original_data": "All input CSVs and small nonconforming status counterexamples authored specifically for Mapa MIDI, MIT; no third-party music.",
+  "scope": "Recordings prove this actual run; --offline does not reexecute the consumer. Manual timing and pairing oracles are separate from independent event facts.",
+  "files": {
+    "edgecases.csv": {
+      "size_bytes": 540,
+      "sha256": "16bb40eba17ae17dead72d51913433db4c1edb9dc6553c8b192d486c2e0c8752"
+    },
+    "edgecases.decoded.csv": {
+      "size_bytes": 540,
+      "sha256": "16bb40eba17ae17dead72d51913433db4c1edb9dc6553c8b192d486c2e0c8752"
+    },
+    "edgecases.mid": {
+      "size_bytes": 124,
+      "sha256": "9165544d763ea4c8214fe585379b82aceb81e0a594c3a8c39f7d9460c3bb4626"
+    },
+    "exemplo.csv": {
+      "size_bytes": 1287,
+      "sha256": "96bce42beab5979d1c5d9ae4571bda122fbbd0575e9f015402f8400fbecc5d50"
+    },
+    "exemplo.decoded.csv": {
+      "size_bytes": 1287,
+      "sha256": "96bce42beab5979d1c5d9ae4571bda122fbbd0575e9f015402f8400fbecc5d50"
+    },
+    "exemplo.mid": {
+      "size_bytes": 306,
+      "sha256": "8407f47bf973569edad2cfb45a4ec4b790de0f29e41e007e41c1330040d372b8"
+    },
+    "metadata.csv": {
+      "size_bytes": 500,
+      "sha256": "a8206c6800fa4f0adcebd9db5fa9394219137d86dd53e0643c7096c7144d95d3"
+    },
+    "metadata.decoded.csv": {
+      "size_bytes": 498,
+      "sha256": "0e1bf4637e3f1b39ad0f84b9daee53415c67dff5cb593753fd71280618f5ef94"
+    },
+    "metadata.mid": {
+      "size_bytes": 128,
+      "sha256": "e5469dac7565c69a7eb06d6fc480d2dd8208ceb47492e5dd7238f0d48cd9108c"
+    },
+    "oracles.json": {
+      "size_bytes": 11365,
+      "sha256": "da6e79641ac7a6b0614b17a3380fb2da18c7721875e059e8f613665cad0b7463"
+    },
+    "running.csv": {
+      "size_bytes": 246,
+      "sha256": "ff642afbb92daa7832d35804c92ded097fcff02978a53d3071010d87b092fea6"
+    },
+    "running.decoded.csv": {
+      "size_bytes": 246,
+      "sha256": "ff642afbb92daa7832d35804c92ded097fcff02978a53d3071010d87b092fea6"
+    },
+    "running.mid": {
+      "size_bytes": 47,
+      "sha256": "2f5a4d28b26a1aae1ae6782995091a976c04f39c0139bbf75f1d4b4a538fc2af"
+    },
+    "shared.csv": {
+      "size_bytes": 309,
+      "sha256": "745487ef0d44e12d048017af771a3c2742c21585320f3c72071988a64e2f1613"
+    },
+    "shared.decoded.csv": {
+      "size_bytes": 309,
+      "sha256": "745487ef0d44e12d048017af771a3c2742c21585320f3c72071988a64e2f1613"
+    },
+    "shared.mid": {
+      "size_bytes": 94,
+      "sha256": "82c1a2ec5f5dfc84518ff6c4d8d0197e733133a1342b897d4e5bf7bfb5749901"
+    },
+    "status-after-meta.decoded.csv": {
+      "size_bytes": 148,
+      "sha256": "77ccac1ff0ee263bc3b6a8bd778e8985541f08da7e44084dbd30616a3eb585a2"
+    },
+    "status-after-meta.mid": {
+      "size_bytes": 38,
+      "sha256": "352d620db9500bc8f2c0d75368e0217c89ae8c611db1c94e71d38f145d24f2c9"
+    },
+    "status-after-sysex.decoded.csv": {
+      "size_bytes": 166,
+      "sha256": "99958392370c3de09d76c9b113575bf9ce8a5799353f0adf62729c9017ffd35d"
+    },
+    "status-after-sysex.mid": {
+      "size_bytes": 38,
+      "sha256": "8ae0963d8c35529f51b4828f1471da5fb28a9e1b5f2f7b17beb701d7b4805304"
+    }
+  },
+  "source_portability_patch_detail": {
+    "file": "getopt.c",
+    "change": "Remove unused char *index(); declaration only",
+    "before_sha256": "4e5bdbca0c61cd73a647ec9ab24b239f9dbe41e84b634d52c9f78cedb4e738b0",
+    "after_sha256": "12acbf8237fb137a13abd56abb37202193416b0bf49591ef771837d91d25d898"
+  }
+}

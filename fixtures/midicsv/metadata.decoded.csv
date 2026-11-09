@@ -1,0 +1,16 @@
+0, 0, Header, 0, 1, 480
+1, 0, Start_track
+1, 0, Title_t, "Title \\ quoted ""text"""
+1, 0, Text_t, "control\012and\011tab"
+1, 0, Time_signature, 3, 3, 24, 8
+1, 0, Key_signature, -3, "minor"
+1, 0, Sequence_number, 42
+1, 0, Channel_prefix, 15
+1, 0, Pitch_bend_c, 15, 0
+1, 0, Channel_aftertouch_c, 15, 79
+1, 0, Poly_aftertouch_c, 15, 61, 65
+1, 0, System_exclusive, 4, 125, 1, 2, 247
+1, 0, Sequencer_specific, 3, 0, 128, 255
+1, 0, Unknown_meta_event, 106, 3, 1, 2, 3
+1, 480, End_track
+0, 0, End_of_file

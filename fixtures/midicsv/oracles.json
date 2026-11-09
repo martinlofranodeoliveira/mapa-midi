@@ -1,0 +1,499 @@
+{
+  "exemplo": {
+    "summary": {
+      "track_count": 3,
+      "event_count": 42,
+      "note_count": 13,
+      "completed_notes": 13,
+      "open_notes": 0,
+      "unmatched_note_offs": 0,
+      "overlapping_note_ons": 0,
+      "shared_channels": 0,
+      "tempo_changes": 3,
+      "control_changes": {
+        "total": 2,
+        "by_control": {
+          "64": 2
+        }
+      }
+    },
+    "duration_seconds": "41/10",
+    "tempo_map": [
+      [
+        0,
+        500000,
+        "0"
+      ],
+      [
+        960,
+        750000,
+        "1"
+      ],
+      [
+        1920,
+        400000,
+        "5/2"
+      ]
+    ],
+    "notes": [
+      {
+        "track": 1,
+        "port": 0,
+        "channel": 0,
+        "note": 60,
+        "start_tick": 0,
+        "end_tick": 1440,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "0",
+        "duration_seconds": "7/4",
+        "start_event": 3,
+        "end_event": 4,
+        "velocity": 90,
+        "release_velocity": 36,
+        "end_seconds": "7/4"
+      },
+      {
+        "track": 1,
+        "port": 0,
+        "channel": 0,
+        "note": 64,
+        "start_tick": 1440,
+        "end_tick": 1920,
+        "off_kind": "note_on_zero",
+        "ambiguous_pairing": false,
+        "start_seconds": "7/4",
+        "duration_seconds": "3/4",
+        "start_event": 5,
+        "end_event": 6,
+        "velocity": 85,
+        "release_velocity": 0,
+        "end_seconds": "5/2"
+      },
+      {
+        "track": 1,
+        "port": 0,
+        "channel": 0,
+        "note": 67,
+        "start_tick": 1920,
+        "end_tick": 2400,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "5/2",
+        "duration_seconds": "2/5",
+        "start_event": 7,
+        "end_event": 8,
+        "velocity": 92,
+        "release_velocity": 0,
+        "end_seconds": "29/10"
+      },
+      {
+        "track": 1,
+        "port": 0,
+        "channel": 0,
+        "note": 69,
+        "start_tick": 2400,
+        "end_tick": 2640,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "29/10",
+        "duration_seconds": "1/5",
+        "start_event": 9,
+        "end_event": 10,
+        "velocity": 80,
+        "release_velocity": 0,
+        "end_seconds": "31/10"
+      },
+      {
+        "track": 1,
+        "port": 0,
+        "channel": 0,
+        "note": 67,
+        "start_tick": 2640,
+        "end_tick": 2880,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "31/10",
+        "duration_seconds": "1/5",
+        "start_event": 11,
+        "end_event": 12,
+        "velocity": 82,
+        "release_velocity": 0,
+        "end_seconds": "33/10"
+      },
+      {
+        "track": 1,
+        "port": 0,
+        "channel": 0,
+        "note": 64,
+        "start_tick": 2880,
+        "end_tick": 3360,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "33/10",
+        "duration_seconds": "2/5",
+        "start_event": 13,
+        "end_event": 14,
+        "velocity": 88,
+        "release_velocity": 0,
+        "end_seconds": "37/10"
+      },
+      {
+        "track": 1,
+        "port": 0,
+        "channel": 0,
+        "note": 60,
+        "start_tick": 3360,
+        "end_tick": 3840,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "37/10",
+        "duration_seconds": "2/5",
+        "start_event": 15,
+        "end_event": 16,
+        "velocity": 76,
+        "release_velocity": 0,
+        "end_seconds": "41/10"
+      },
+      {
+        "track": 2,
+        "port": 0,
+        "channel": 1,
+        "note": 48,
+        "start_tick": 0,
+        "end_tick": 960,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "0",
+        "duration_seconds": "1",
+        "start_event": 4,
+        "end_event": 6,
+        "velocity": 72,
+        "release_velocity": 0,
+        "end_seconds": "1"
+      },
+      {
+        "track": 2,
+        "port": 0,
+        "channel": 1,
+        "note": 55,
+        "start_tick": 0,
+        "end_tick": 960,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "0",
+        "duration_seconds": "1",
+        "start_event": 5,
+        "end_event": 7,
+        "velocity": 65,
+        "release_velocity": 0,
+        "end_seconds": "1"
+      },
+      {
+        "track": 2,
+        "port": 0,
+        "channel": 1,
+        "note": 50,
+        "start_tick": 1920,
+        "end_tick": 2880,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "5/2",
+        "duration_seconds": "4/5",
+        "start_event": 9,
+        "end_event": 11,
+        "velocity": 74,
+        "release_velocity": 0,
+        "end_seconds": "33/10"
+      },
+      {
+        "track": 2,
+        "port": 0,
+        "channel": 1,
+        "note": 57,
+        "start_tick": 1920,
+        "end_tick": 2880,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "5/2",
+        "duration_seconds": "4/5",
+        "start_event": 10,
+        "end_event": 12,
+        "velocity": 67,
+        "release_velocity": 0,
+        "end_seconds": "33/10"
+      },
+      {
+        "track": 2,
+        "port": 0,
+        "channel": 1,
+        "note": 48,
+        "start_tick": 2880,
+        "end_tick": 3840,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "33/10",
+        "duration_seconds": "4/5",
+        "start_event": 13,
+        "end_event": 15,
+        "velocity": 70,
+        "release_velocity": 0,
+        "end_seconds": "41/10"
+      },
+      {
+        "track": 2,
+        "port": 0,
+        "channel": 1,
+        "note": 55,
+        "start_tick": 2880,
+        "end_tick": 3840,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "33/10",
+        "duration_seconds": "4/5",
+        "start_event": 14,
+        "end_event": 16,
+        "velocity": 64,
+        "release_velocity": 0,
+        "end_seconds": "41/10"
+      }
+    ]
+  },
+  "edgecases": {
+    "summary": {
+      "track_count": 1,
+      "event_count": 18,
+      "note_count": 5,
+      "completed_notes": 3,
+      "open_notes": 2,
+      "unmatched_note_offs": 2,
+      "overlapping_note_ons": 1,
+      "shared_channels": 0,
+      "tempo_changes": 1,
+      "control_changes": {
+        "total": 3,
+        "by_control": {
+          "64": 1,
+          "66": 1,
+          "123": 1
+        }
+      }
+    },
+    "duration_seconds": "17/10",
+    "tempo_map": [
+      [
+        0,
+        500000,
+        "0"
+      ],
+      [
+        14,
+        700000,
+        "1"
+      ]
+    ],
+    "notes": [
+      {
+        "track": 0,
+        "port": null,
+        "channel": 0,
+        "note": 60,
+        "start_tick": 0,
+        "end_tick": 2,
+        "off_kind": "note_off",
+        "ambiguous_pairing": true,
+        "start_seconds": "0",
+        "duration_seconds": "1/7",
+        "start_event": 2,
+        "end_event": 4,
+        "velocity": 100,
+        "release_velocity": 31,
+        "end_seconds": "1/7"
+      },
+      {
+        "track": 0,
+        "port": null,
+        "channel": 0,
+        "note": 60,
+        "start_tick": 1,
+        "end_tick": 3,
+        "off_kind": "note_on_zero",
+        "ambiguous_pairing": true,
+        "start_seconds": "1/14",
+        "duration_seconds": "1/7",
+        "start_event": 3,
+        "end_event": 5,
+        "velocity": 80,
+        "release_velocity": 0,
+        "end_seconds": "3/14"
+      },
+      {
+        "track": 0,
+        "port": null,
+        "channel": 0,
+        "note": 62,
+        "start_tick": 5,
+        "end_tick": null,
+        "off_kind": null,
+        "ambiguous_pairing": false,
+        "start_seconds": "5/14",
+        "duration_seconds": null,
+        "start_event": 7,
+        "end_event": null,
+        "velocity": 70,
+        "release_velocity": null,
+        "end_seconds": null
+      },
+      {
+        "track": 0,
+        "port": 0,
+        "channel": 0,
+        "note": 64,
+        "start_tick": 7,
+        "end_tick": 7,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "1/2",
+        "duration_seconds": "0",
+        "start_event": 10,
+        "end_event": 11,
+        "velocity": 77,
+        "release_velocity": 0,
+        "end_seconds": "1/2"
+      },
+      {
+        "track": 0,
+        "port": 0,
+        "channel": 0,
+        "note": 65,
+        "start_tick": 8,
+        "end_tick": null,
+        "off_kind": null,
+        "ambiguous_pairing": false,
+        "start_seconds": "4/7",
+        "duration_seconds": null,
+        "start_event": 12,
+        "end_event": null,
+        "velocity": 60,
+        "release_velocity": null,
+        "end_seconds": null
+      }
+    ]
+  },
+  "shared": {
+    "summary": {
+      "track_count": 3,
+      "event_count": 10,
+      "note_count": 1,
+      "completed_notes": 0,
+      "open_notes": 1,
+      "unmatched_note_offs": 1,
+      "overlapping_note_ons": 0,
+      "shared_channels": 1,
+      "tempo_changes": 3
+    },
+    "duration_seconds": "5/4",
+    "tempo_map": [
+      [
+        0,
+        500000,
+        "0"
+      ],
+      [
+        480,
+        750000,
+        "1/2"
+      ]
+    ],
+    "notes": [
+      {
+        "track": 1,
+        "port": 2,
+        "channel": 3,
+        "note": 60,
+        "start_tick": 0,
+        "end_tick": null,
+        "off_kind": null,
+        "ambiguous_pairing": false,
+        "start_seconds": "0",
+        "duration_seconds": null,
+        "start_event": 1,
+        "end_event": null,
+        "velocity": 90,
+        "release_velocity": null,
+        "end_seconds": null
+      }
+    ]
+  },
+  "metadata": {
+    "summary": {
+      "track_count": 1,
+      "event_count": 13,
+      "note_count": 0
+    },
+    "duration_seconds": "1/2",
+    "notes": []
+  },
+  "running": {
+    "summary": {
+      "track_count": 1,
+      "event_count": 7,
+      "note_count": 3,
+      "completed_notes": 3
+    },
+    "duration_seconds": "1/2",
+    "notes": [
+      {
+        "track": 0,
+        "port": null,
+        "channel": 0,
+        "note": 60,
+        "start_tick": 0,
+        "end_tick": 480,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "0",
+        "duration_seconds": "1/2",
+        "start_event": 0,
+        "end_event": 3,
+        "velocity": 90,
+        "release_velocity": 0,
+        "end_seconds": "1/2"
+      },
+      {
+        "track": 0,
+        "port": null,
+        "channel": 0,
+        "note": 64,
+        "start_tick": 0,
+        "end_tick": 480,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "0",
+        "duration_seconds": "1/2",
+        "start_event": 1,
+        "end_event": 4,
+        "velocity": 80,
+        "release_velocity": 0,
+        "end_seconds": "1/2"
+      },
+      {
+        "track": 0,
+        "port": null,
+        "channel": 0,
+        "note": 67,
+        "start_tick": 0,
+        "end_tick": 480,
+        "off_kind": "note_off",
+        "ambiguous_pairing": false,
+        "start_seconds": "0",
+        "duration_seconds": "1/2",
+        "start_event": 2,
+        "end_event": 5,
+        "velocity": 70,
+        "release_velocity": 0,
+        "end_seconds": "1/2"
+      }
+    ]
+  }
+}

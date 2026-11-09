@@ -1,0 +1,1281 @@
+{
+  "schema_version": 1,
+  "application_version": "1.0.0",
+  "source": {
+    "sha256": "8407f47bf973569edad2cfb45a4ec4b790de0f29e41e007e41c1330040d372b8",
+    "size_bytes": 306,
+    "format": 1,
+    "ppqn": 480,
+    "charset": "utf-8",
+    "header_extra_bytes": 0
+  },
+  "scope": {
+    "timing": "Segundos racionais exatos; PPQN, andamento explícito ou padrão inicial de 500000 µs/semínima.",
+    "pairing": "FIFO por trilha/porta/canal/nota; ordem simultânea entre trilhas não é uma ordem física. C4=60.",
+    "not_audio": "Intervalos entre mensagens, não duração audível; pedal, sostenuto e modos de canal não prolongam nem encerram notas.",
+    "channel_numbering": "zero_based",
+    "opaque_payloads": "digest_only"
+  },
+  "tracks": [
+    {
+      "index": 0,
+      "name": "Estudo original - mapa de mensagens",
+      "end_tick": 3840,
+      "event_count": 6,
+      "end_seconds": {
+        "numerator": "41",
+        "denominator": "10",
+        "decimal": "4.100000000"
+      },
+      "channels": [],
+      "programs": []
+    },
+    {
+      "index": 1,
+      "name": "Linha principal",
+      "end_tick": 3840,
+      "event_count": 18,
+      "end_seconds": {
+        "numerator": "41",
+        "denominator": "10",
+        "decimal": "4.100000000"
+      },
+      "channels": [
+        0
+      ],
+      "programs": [
+        {
+          "tick": 0,
+          "index": 2,
+          "port": 0,
+          "channel": 0,
+          "program": 12
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Base e pedal observado",
+      "end_tick": 3840,
+      "event_count": 18,
+      "end_seconds": {
+        "numerator": "41",
+        "denominator": "10",
+        "decimal": "4.100000000"
+      },
+      "channels": [
+        1
+      ],
+      "programs": [
+        {
+          "tick": 0,
+          "index": 2,
+          "port": 0,
+          "channel": 1,
+          "program": 4
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "track": 0,
+      "index": 0,
+      "tick": 0,
+      "type": "track_name",
+      "is_meta": true,
+      "port": null,
+      "channel": null,
+      "fields": {
+        "name": "Estudo original - mapa de mensagens"
+      },
+      "seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      }
+    },
+    {
+      "track": 0,
+      "index": 1,
+      "tick": 0,
+      "type": "time_signature",
+      "is_meta": true,
+      "port": null,
+      "channel": null,
+      "fields": {
+        "clocks_per_click": 24,
+        "denominator": 4,
+        "notated_32nd_notes_per_beat": 8,
+        "numerator": 4
+      },
+      "seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      }
+    },
+    {
+      "track": 0,
+      "index": 2,
+      "tick": 0,
+      "type": "set_tempo",
+      "is_meta": true,
+      "port": null,
+      "channel": null,
+      "fields": {
+        "tempo": 500000
+      },
+      "seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      }
+    },
+    {
+      "track": 0,
+      "index": 3,
+      "tick": 960,
+      "type": "set_tempo",
+      "is_meta": true,
+      "port": null,
+      "channel": null,
+      "fields": {
+        "tempo": 750000
+      },
+      "seconds": {
+        "numerator": "1",
+        "denominator": "1",
+        "decimal": "1.000000000"
+      }
+    },
+    {
+      "track": 0,
+      "index": 4,
+      "tick": 1920,
+      "type": "set_tempo",
+      "is_meta": true,
+      "port": null,
+      "channel": null,
+      "fields": {
+        "tempo": 400000
+      },
+      "seconds": {
+        "numerator": "5",
+        "denominator": "2",
+        "decimal": "2.500000000"
+      }
+    },
+    {
+      "track": 0,
+      "index": 5,
+      "tick": 3840,
+      "type": "end_of_track",
+      "is_meta": true,
+      "port": null,
+      "channel": null,
+      "fields": {},
+      "seconds": {
+        "numerator": "41",
+        "denominator": "10",
+        "decimal": "4.100000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 0,
+      "tick": 0,
+      "type": "track_name",
+      "is_meta": true,
+      "port": null,
+      "channel": null,
+      "fields": {
+        "name": "Linha principal"
+      },
+      "seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 1,
+      "tick": 0,
+      "type": "midi_port",
+      "is_meta": true,
+      "port": null,
+      "channel": null,
+      "fields": {
+        "port": 0
+      },
+      "seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 2,
+      "tick": 0,
+      "type": "program_change",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "program": 12
+      },
+      "seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 3,
+      "tick": 0,
+      "type": "note_on",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "note": 60,
+        "velocity": 90
+      },
+      "seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 4,
+      "tick": 1440,
+      "type": "note_off",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "note": 60,
+        "velocity": 36
+      },
+      "seconds": {
+        "numerator": "7",
+        "denominator": "4",
+        "decimal": "1.750000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 5,
+      "tick": 1440,
+      "type": "note_on",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "note": 64,
+        "velocity": 85
+      },
+      "seconds": {
+        "numerator": "7",
+        "denominator": "4",
+        "decimal": "1.750000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 6,
+      "tick": 1920,
+      "type": "note_on",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "note": 64,
+        "velocity": 0
+      },
+      "seconds": {
+        "numerator": "5",
+        "denominator": "2",
+        "decimal": "2.500000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 7,
+      "tick": 1920,
+      "type": "note_on",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "note": 67,
+        "velocity": 92
+      },
+      "seconds": {
+        "numerator": "5",
+        "denominator": "2",
+        "decimal": "2.500000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 8,
+      "tick": 2400,
+      "type": "note_off",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "note": 67,
+        "velocity": 0
+      },
+      "seconds": {
+        "numerator": "29",
+        "denominator": "10",
+        "decimal": "2.900000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 9,
+      "tick": 2400,
+      "type": "note_on",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "note": 69,
+        "velocity": 80
+      },
+      "seconds": {
+        "numerator": "29",
+        "denominator": "10",
+        "decimal": "2.900000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 10,
+      "tick": 2640,
+      "type": "note_off",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "note": 69,
+        "velocity": 0
+      },
+      "seconds": {
+        "numerator": "31",
+        "denominator": "10",
+        "decimal": "3.100000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 11,
+      "tick": 2640,
+      "type": "note_on",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "note": 67,
+        "velocity": 82
+      },
+      "seconds": {
+        "numerator": "31",
+        "denominator": "10",
+        "decimal": "3.100000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 12,
+      "tick": 2880,
+      "type": "note_off",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "note": 67,
+        "velocity": 0
+      },
+      "seconds": {
+        "numerator": "33",
+        "denominator": "10",
+        "decimal": "3.300000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 13,
+      "tick": 2880,
+      "type": "note_on",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "note": 64,
+        "velocity": 88
+      },
+      "seconds": {
+        "numerator": "33",
+        "denominator": "10",
+        "decimal": "3.300000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 14,
+      "tick": 3360,
+      "type": "note_off",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "note": 64,
+        "velocity": 0
+      },
+      "seconds": {
+        "numerator": "37",
+        "denominator": "10",
+        "decimal": "3.700000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 15,
+      "tick": 3360,
+      "type": "note_on",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "note": 60,
+        "velocity": 76
+      },
+      "seconds": {
+        "numerator": "37",
+        "denominator": "10",
+        "decimal": "3.700000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 16,
+      "tick": 3840,
+      "type": "note_off",
+      "is_meta": false,
+      "port": 0,
+      "channel": 0,
+      "fields": {
+        "note": 60,
+        "velocity": 0
+      },
+      "seconds": {
+        "numerator": "41",
+        "denominator": "10",
+        "decimal": "4.100000000"
+      }
+    },
+    {
+      "track": 1,
+      "index": 17,
+      "tick": 3840,
+      "type": "end_of_track",
+      "is_meta": true,
+      "port": 0,
+      "channel": null,
+      "fields": {},
+      "seconds": {
+        "numerator": "41",
+        "denominator": "10",
+        "decimal": "4.100000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 0,
+      "tick": 0,
+      "type": "track_name",
+      "is_meta": true,
+      "port": null,
+      "channel": null,
+      "fields": {
+        "name": "Base e pedal observado"
+      },
+      "seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 1,
+      "tick": 0,
+      "type": "midi_port",
+      "is_meta": true,
+      "port": null,
+      "channel": null,
+      "fields": {
+        "port": 0
+      },
+      "seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 2,
+      "tick": 0,
+      "type": "program_change",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "program": 4
+      },
+      "seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 3,
+      "tick": 0,
+      "type": "control_change",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "control": 64,
+        "value": 127
+      },
+      "seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 4,
+      "tick": 0,
+      "type": "note_on",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "note": 48,
+        "velocity": 72
+      },
+      "seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 5,
+      "tick": 0,
+      "type": "note_on",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "note": 55,
+        "velocity": 65
+      },
+      "seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 6,
+      "tick": 960,
+      "type": "note_off",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "note": 48,
+        "velocity": 0
+      },
+      "seconds": {
+        "numerator": "1",
+        "denominator": "1",
+        "decimal": "1.000000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 7,
+      "tick": 960,
+      "type": "note_off",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "note": 55,
+        "velocity": 0
+      },
+      "seconds": {
+        "numerator": "1",
+        "denominator": "1",
+        "decimal": "1.000000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 8,
+      "tick": 1200,
+      "type": "control_change",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "control": 64,
+        "value": 0
+      },
+      "seconds": {
+        "numerator": "11",
+        "denominator": "8",
+        "decimal": "1.375000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 9,
+      "tick": 1920,
+      "type": "note_on",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "note": 50,
+        "velocity": 74
+      },
+      "seconds": {
+        "numerator": "5",
+        "denominator": "2",
+        "decimal": "2.500000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 10,
+      "tick": 1920,
+      "type": "note_on",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "note": 57,
+        "velocity": 67
+      },
+      "seconds": {
+        "numerator": "5",
+        "denominator": "2",
+        "decimal": "2.500000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 11,
+      "tick": 2880,
+      "type": "note_off",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "note": 50,
+        "velocity": 0
+      },
+      "seconds": {
+        "numerator": "33",
+        "denominator": "10",
+        "decimal": "3.300000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 12,
+      "tick": 2880,
+      "type": "note_off",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "note": 57,
+        "velocity": 0
+      },
+      "seconds": {
+        "numerator": "33",
+        "denominator": "10",
+        "decimal": "3.300000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 13,
+      "tick": 2880,
+      "type": "note_on",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "note": 48,
+        "velocity": 70
+      },
+      "seconds": {
+        "numerator": "33",
+        "denominator": "10",
+        "decimal": "3.300000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 14,
+      "tick": 2880,
+      "type": "note_on",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "note": 55,
+        "velocity": 64
+      },
+      "seconds": {
+        "numerator": "33",
+        "denominator": "10",
+        "decimal": "3.300000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 15,
+      "tick": 3840,
+      "type": "note_off",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "note": 48,
+        "velocity": 0
+      },
+      "seconds": {
+        "numerator": "41",
+        "denominator": "10",
+        "decimal": "4.100000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 16,
+      "tick": 3840,
+      "type": "note_off",
+      "is_meta": false,
+      "port": 0,
+      "channel": 1,
+      "fields": {
+        "note": 55,
+        "velocity": 0
+      },
+      "seconds": {
+        "numerator": "41",
+        "denominator": "10",
+        "decimal": "4.100000000"
+      }
+    },
+    {
+      "track": 2,
+      "index": 17,
+      "tick": 3840,
+      "type": "end_of_track",
+      "is_meta": true,
+      "port": 0,
+      "channel": null,
+      "fields": {},
+      "seconds": {
+        "numerator": "41",
+        "denominator": "10",
+        "decimal": "4.100000000"
+      }
+    }
+  ],
+  "tempo_map": [
+    {
+      "tick": 0,
+      "tempo_us_per_quarter": 500000,
+      "start_seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      },
+      "source_event": {
+        "track": 0,
+        "index": 2
+      },
+      "default": false
+    },
+    {
+      "tick": 960,
+      "tempo_us_per_quarter": 750000,
+      "start_seconds": {
+        "numerator": "1",
+        "denominator": "1",
+        "decimal": "1.000000000"
+      },
+      "source_event": {
+        "track": 0,
+        "index": 3
+      },
+      "default": false
+    },
+    {
+      "tick": 1920,
+      "tempo_us_per_quarter": 400000,
+      "start_seconds": {
+        "numerator": "5",
+        "denominator": "2",
+        "decimal": "2.500000000"
+      },
+      "source_event": {
+        "track": 0,
+        "index": 4
+      },
+      "default": false
+    }
+  ],
+  "notes": [
+    {
+      "track": 1,
+      "port": 0,
+      "channel": 0,
+      "note": 60,
+      "note_name": "C4",
+      "start_event": 3,
+      "end_event": 4,
+      "start_tick": 0,
+      "end_tick": 1440,
+      "start_seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      },
+      "end_seconds": {
+        "numerator": "7",
+        "denominator": "4",
+        "decimal": "1.750000000"
+      },
+      "duration_seconds": {
+        "numerator": "7",
+        "denominator": "4",
+        "decimal": "1.750000000"
+      },
+      "velocity": 90,
+      "release_velocity": 36,
+      "off_kind": "note_off",
+      "ambiguous_pairing": false
+    },
+    {
+      "track": 1,
+      "port": 0,
+      "channel": 0,
+      "note": 64,
+      "note_name": "E4",
+      "start_event": 5,
+      "end_event": 6,
+      "start_tick": 1440,
+      "end_tick": 1920,
+      "start_seconds": {
+        "numerator": "7",
+        "denominator": "4",
+        "decimal": "1.750000000"
+      },
+      "end_seconds": {
+        "numerator": "5",
+        "denominator": "2",
+        "decimal": "2.500000000"
+      },
+      "duration_seconds": {
+        "numerator": "3",
+        "denominator": "4",
+        "decimal": "0.750000000"
+      },
+      "velocity": 85,
+      "release_velocity": 0,
+      "off_kind": "note_on_zero",
+      "ambiguous_pairing": false
+    },
+    {
+      "track": 1,
+      "port": 0,
+      "channel": 0,
+      "note": 67,
+      "note_name": "G4",
+      "start_event": 7,
+      "end_event": 8,
+      "start_tick": 1920,
+      "end_tick": 2400,
+      "start_seconds": {
+        "numerator": "5",
+        "denominator": "2",
+        "decimal": "2.500000000"
+      },
+      "end_seconds": {
+        "numerator": "29",
+        "denominator": "10",
+        "decimal": "2.900000000"
+      },
+      "duration_seconds": {
+        "numerator": "2",
+        "denominator": "5",
+        "decimal": "0.400000000"
+      },
+      "velocity": 92,
+      "release_velocity": 0,
+      "off_kind": "note_off",
+      "ambiguous_pairing": false
+    },
+    {
+      "track": 1,
+      "port": 0,
+      "channel": 0,
+      "note": 69,
+      "note_name": "A4",
+      "start_event": 9,
+      "end_event": 10,
+      "start_tick": 2400,
+      "end_tick": 2640,
+      "start_seconds": {
+        "numerator": "29",
+        "denominator": "10",
+        "decimal": "2.900000000"
+      },
+      "end_seconds": {
+        "numerator": "31",
+        "denominator": "10",
+        "decimal": "3.100000000"
+      },
+      "duration_seconds": {
+        "numerator": "1",
+        "denominator": "5",
+        "decimal": "0.200000000"
+      },
+      "velocity": 80,
+      "release_velocity": 0,
+      "off_kind": "note_off",
+      "ambiguous_pairing": false
+    },
+    {
+      "track": 1,
+      "port": 0,
+      "channel": 0,
+      "note": 67,
+      "note_name": "G4",
+      "start_event": 11,
+      "end_event": 12,
+      "start_tick": 2640,
+      "end_tick": 2880,
+      "start_seconds": {
+        "numerator": "31",
+        "denominator": "10",
+        "decimal": "3.100000000"
+      },
+      "end_seconds": {
+        "numerator": "33",
+        "denominator": "10",
+        "decimal": "3.300000000"
+      },
+      "duration_seconds": {
+        "numerator": "1",
+        "denominator": "5",
+        "decimal": "0.200000000"
+      },
+      "velocity": 82,
+      "release_velocity": 0,
+      "off_kind": "note_off",
+      "ambiguous_pairing": false
+    },
+    {
+      "track": 1,
+      "port": 0,
+      "channel": 0,
+      "note": 64,
+      "note_name": "E4",
+      "start_event": 13,
+      "end_event": 14,
+      "start_tick": 2880,
+      "end_tick": 3360,
+      "start_seconds": {
+        "numerator": "33",
+        "denominator": "10",
+        "decimal": "3.300000000"
+      },
+      "end_seconds": {
+        "numerator": "37",
+        "denominator": "10",
+        "decimal": "3.700000000"
+      },
+      "duration_seconds": {
+        "numerator": "2",
+        "denominator": "5",
+        "decimal": "0.400000000"
+      },
+      "velocity": 88,
+      "release_velocity": 0,
+      "off_kind": "note_off",
+      "ambiguous_pairing": false
+    },
+    {
+      "track": 1,
+      "port": 0,
+      "channel": 0,
+      "note": 60,
+      "note_name": "C4",
+      "start_event": 15,
+      "end_event": 16,
+      "start_tick": 3360,
+      "end_tick": 3840,
+      "start_seconds": {
+        "numerator": "37",
+        "denominator": "10",
+        "decimal": "3.700000000"
+      },
+      "end_seconds": {
+        "numerator": "41",
+        "denominator": "10",
+        "decimal": "4.100000000"
+      },
+      "duration_seconds": {
+        "numerator": "2",
+        "denominator": "5",
+        "decimal": "0.400000000"
+      },
+      "velocity": 76,
+      "release_velocity": 0,
+      "off_kind": "note_off",
+      "ambiguous_pairing": false
+    },
+    {
+      "track": 2,
+      "port": 0,
+      "channel": 1,
+      "note": 48,
+      "note_name": "C3",
+      "start_event": 4,
+      "end_event": 6,
+      "start_tick": 0,
+      "end_tick": 960,
+      "start_seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      },
+      "end_seconds": {
+        "numerator": "1",
+        "denominator": "1",
+        "decimal": "1.000000000"
+      },
+      "duration_seconds": {
+        "numerator": "1",
+        "denominator": "1",
+        "decimal": "1.000000000"
+      },
+      "velocity": 72,
+      "release_velocity": 0,
+      "off_kind": "note_off",
+      "ambiguous_pairing": false
+    },
+    {
+      "track": 2,
+      "port": 0,
+      "channel": 1,
+      "note": 55,
+      "note_name": "G3",
+      "start_event": 5,
+      "end_event": 7,
+      "start_tick": 0,
+      "end_tick": 960,
+      "start_seconds": {
+        "numerator": "0",
+        "denominator": "1",
+        "decimal": "0.000000000"
+      },
+      "end_seconds": {
+        "numerator": "1",
+        "denominator": "1",
+        "decimal": "1.000000000"
+      },
+      "duration_seconds": {
+        "numerator": "1",
+        "denominator": "1",
+        "decimal": "1.000000000"
+      },
+      "velocity": 65,
+      "release_velocity": 0,
+      "off_kind": "note_off",
+      "ambiguous_pairing": false
+    },
+    {
+      "track": 2,
+      "port": 0,
+      "channel": 1,
+      "note": 50,
+      "note_name": "D3",
+      "start_event": 9,
+      "end_event": 11,
+      "start_tick": 1920,
+      "end_tick": 2880,
+      "start_seconds": {
+        "numerator": "5",
+        "denominator": "2",
+        "decimal": "2.500000000"
+      },
+      "end_seconds": {
+        "numerator": "33",
+        "denominator": "10",
+        "decimal": "3.300000000"
+      },
+      "duration_seconds": {
+        "numerator": "4",
+        "denominator": "5",
+        "decimal": "0.800000000"
+      },
+      "velocity": 74,
+      "release_velocity": 0,
+      "off_kind": "note_off",
+      "ambiguous_pairing": false
+    },
+    {
+      "track": 2,
+      "port": 0,
+      "channel": 1,
+      "note": 57,
+      "note_name": "A3",
+      "start_event": 10,
+      "end_event": 12,
+      "start_tick": 1920,
+      "end_tick": 2880,
+      "start_seconds": {
+        "numerator": "5",
+        "denominator": "2",
+        "decimal": "2.500000000"
+      },
+      "end_seconds": {
+        "numerator": "33",
+        "denominator": "10",
+        "decimal": "3.300000000"
+      },
+      "duration_seconds": {
+        "numerator": "4",
+        "denominator": "5",
+        "decimal": "0.800000000"
+      },
+      "velocity": 67,
+      "release_velocity": 0,
+      "off_kind": "note_off",
+      "ambiguous_pairing": false
+    },
+    {
+      "track": 2,
+      "port": 0,
+      "channel": 1,
+      "note": 48,
+      "note_name": "C3",
+      "start_event": 13,
+      "end_event": 15,
+      "start_tick": 2880,
+      "end_tick": 3840,
+      "start_seconds": {
+        "numerator": "33",
+        "denominator": "10",
+        "decimal": "3.300000000"
+      },
+      "end_seconds": {
+        "numerator": "41",
+        "denominator": "10",
+        "decimal": "4.100000000"
+      },
+      "duration_seconds": {
+        "numerator": "4",
+        "denominator": "5",
+        "decimal": "0.800000000"
+      },
+      "velocity": 70,
+      "release_velocity": 0,
+      "off_kind": "note_off",
+      "ambiguous_pairing": false
+    },
+    {
+      "track": 2,
+      "port": 0,
+      "channel": 1,
+      "note": 55,
+      "note_name": "G3",
+      "start_event": 14,
+      "end_event": 16,
+      "start_tick": 2880,
+      "end_tick": 3840,
+      "start_seconds": {
+        "numerator": "33",
+        "denominator": "10",
+        "decimal": "3.300000000"
+      },
+      "end_seconds": {
+        "numerator": "41",
+        "denominator": "10",
+        "decimal": "4.100000000"
+      },
+      "duration_seconds": {
+        "numerator": "4",
+        "denominator": "5",
+        "decimal": "0.800000000"
+      },
+      "velocity": 64,
+      "release_velocity": 0,
+      "off_kind": "note_off",
+      "ambiguous_pairing": false
+    }
+  ],
+  "diagnostics": [],
+  "summary": {
+    "duration_ticks": 3840,
+    "duration_seconds": {
+      "numerator": "41",
+      "denominator": "10",
+      "decimal": "4.100000000"
+    },
+    "track_count": 3,
+    "event_count": 42,
+    "note_count": 13,
+    "completed_notes": 13,
+    "open_notes": 0,
+    "unmatched_note_offs": 0,
+    "overlapping_note_ons": 0,
+    "shared_channels": 0,
+    "control_changes": {
+      "total": 2,
+      "by_control": {
+        "64": 2
+      }
+    },
+    "tempo_changes": 3
+  }
+}
